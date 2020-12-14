@@ -19,8 +19,8 @@ services:
       - SMTP_PASS=password
       - SMTP_REWRITE_DOMAIN=pdd-host.ru
       - SMTP_HOSTNAME=www.host.ru
-      - XDEBUG_CONFIG = "remote_host=172.22.0.4 remote_enable=1"
-      - PHP_IDE_CONFIG = "serverName=Docker"
+      - XDEBUG_CONFIG= "remote_host=172.22.0.4 remote_enable=1"
+      - PHP_IDE_CONFIG= "serverName=Docker"
   mysql:
     build: ./mysql
     volumes:
